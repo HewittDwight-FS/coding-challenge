@@ -1,0 +1,71 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-weight: normal;
+  color: crimson;
+  background-color: blanchedalmond;
+  margin: 0rem;
+  padding: 1rem;
+  border: 4px solid crimson;
+}
+
+a {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+p {
+  border: 4px solid orange;
+}
+
+/* img {
+  display: block;
+  margin: auto;
+} */
+
+#laptop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+h2 {
+  margin: 0rem;
+  background-color: darkorchid;
+  border: 4px soid darkorange;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#wrapper {
+  border: 4px solid darkolivegreen;
+  width: 90%;
+  margin: auto;
+}
+
+#search button {
+  cursor: pointer;
+  background-color: coral;
+  color: bisque;
+  border: none;
+  padding: 0.25rem 2rem;
+  font-size: 100%;
+}
+
+#search input {
+  font-size: 100%;
+}
